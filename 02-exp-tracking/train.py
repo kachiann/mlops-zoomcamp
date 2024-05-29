@@ -1,4 +1,5 @@
 import os
+import argparse
 import pickle
 import click
 import mlflow
@@ -24,7 +25,8 @@ def run_train(data_path: str):
     mlflow.set_experiment("nyc-taxi-trip-duration")
 
     with mlflow.start_run():
-        mlflow.set_tag('developer', 'kachi')
+        mlflow.sklearn.autolog()
+        mlflow.set_tag('developer', 'Kachi')
         X_train, y_train = load_pickle(os.path.join(data_path, "train.pkl"))
         X_val, y_val = load_pickle(os.path.join(data_path, "val.pkl"))
 
@@ -41,13 +43,4 @@ def run_train(data_path: str):
 if __name__ == '__main__':
     run_train()
 
-    mlflow.sklearn.autolog()
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--data_path",
-        default="./output",
-        help="the location where the processed NYC taxi trip data was saved."
-    )
-    args = parser.parse_args()
-
-    run_train(args.data_path)
+    
