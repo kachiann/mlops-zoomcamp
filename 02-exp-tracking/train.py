@@ -24,8 +24,7 @@ def run_train(data_path: str):
     mlflow.set_experiment("nyc-taxi-trip-duration")
 
     with mlflow.start_run():
-        mlflow.sklearn.autolog()
-
+        mlflow.set_tag('developer', 'kachi')
         X_train, y_train = load_pickle(os.path.join(data_path, "train.pkl"))
         X_val, y_val = load_pickle(os.path.join(data_path, "val.pkl"))
 
@@ -34,9 +33,21 @@ def run_train(data_path: str):
         y_pred = rf.predict(X_val)
 
         rmse = np.sqrt(mean_squared_error(y_val, y_pred))
-
+        # Log metric
+        mlflow.log_metric('rmse', rmse)
         # Log the model
         mlflow.sklearn.log_model(rf, "random_forest_model")
 
 if __name__ == '__main__':
     run_train()
+
+    mlflow.sklearn.autolog()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--data_path",
+        default="./output",
+        help="the location where the processed NYC taxi trip data was saved."
+    )
+    args = parser.parse_args()
+
+    run_train(args.data_path)
