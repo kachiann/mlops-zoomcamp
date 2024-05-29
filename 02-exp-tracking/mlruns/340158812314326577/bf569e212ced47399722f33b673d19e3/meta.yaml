@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-exp-tracking/mlruns/340158812314326577/bf569e212ced47399722f33b673d19e3/artifacts
+end_time: 1717017202431
+entry_point_name: ''
+experiment_id: '340158812314326577'
+lifecycle_stage: active
+run_id: bf569e212ced47399722f33b673d19e3
+run_name: upset-snail-810
+run_uuid: bf569e212ced47399722f33b673d19e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717017187322
+status: 3
+tags: []
+user_id: codespace

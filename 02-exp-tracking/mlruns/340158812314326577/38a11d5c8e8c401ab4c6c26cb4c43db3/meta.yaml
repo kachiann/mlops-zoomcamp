@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/02-exp-tracking/mlruns/340158812314326577/38a11d5c8e8c401ab4c6c26cb4c43db3/artifacts
+end_time: 1717017331768
+entry_point_name: ''
+experiment_id: '340158812314326577'
+lifecycle_stage: active
+run_id: 38a11d5c8e8c401ab4c6c26cb4c43db3
+run_name: valuable-donkey-963
+run_uuid: 38a11d5c8e8c401ab4c6c26cb4c43db3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717017317001
+status: 3
+tags: []
+user_id: codespace
