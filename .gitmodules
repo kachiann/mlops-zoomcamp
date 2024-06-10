@@ -1,3 +1,6 @@
 [submodule "mlops/mlops-practice"]
 	path = mlops/mlops-practice
 	url = https://github.com/kachiann/mlops-practice
+[submodule "mlops/mlops/mlops-practice"]
+	path = mlops/mlops/mlops-practice
+	url = https://github.com/kachiann/mlops-zoomcamp
