@@ -17,7 +17,7 @@ The goal of this project is to deploy a machine learning model that predicts rid
    - Create a virtual environment using Pipenv to manage dependencies.
 
 2. **Script for Prediction**
-   - Develop a Python script (`apply_model.py`) that reads trip data, applies a pre-trained model to predict ride durations, and saves results.
+   - Develop a Python script (`predict.py`) that reads trip data, applies a pre-trained model to predict ride durations, and saves results.
 
 3. **Integration with Flask**
    - Incorporate the prediction script into a Flask web application to expose predictions via a RESTful API.
