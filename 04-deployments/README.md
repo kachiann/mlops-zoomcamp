@@ -20,7 +20,7 @@ The goal of this project is to deploy a machine learning model that predicts rid
    - Develop a Python script (`predict.py`) that reads trip data, applies a pre-trained model to predict ride durations, and saves results.
 
 3. **Integration with Flask**
-   - Incorporate the prediction script into a Flask web application to expose predictions via a RESTful API.
+   - Incorporate the prediction script into a Flask web application to expose predictions.
 
 4. **Packaging with Docker**
    - Containerize the Flask application along with its dependencies into a Docker image for scalability and deployment.
