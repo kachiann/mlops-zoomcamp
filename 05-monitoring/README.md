@@ -1,0 +1,4 @@
+- ColumnSummaryMetric: This metric calculates summary statistics (mean, median, min, max, etc.) for the fare_amount column. It provides a comprehensive view of the distribution and central tendency of the values in the column.
+- ColumnQuantileMetric: This metric calculates a specific quantile (here, the median with quantile=0.5) for the fare_amount column. It complements the summary statistics by focusing specifically on the median value.
+
+These metrics together offer a robust analysis of the fare_amount column, helping to monitor its distribution, central tendency, and potential changes or anomalies over time.
