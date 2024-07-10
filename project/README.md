@@ -5,7 +5,7 @@ Welcome to my end-to-end machine learning (ML) project. This project is a compre
 ## Project Steps
 
 1. **Dataset Selection**
-   - I have selected a dataset that interests me. See the [Datasets](#datasets) section for additional recommendations if you want to explore other datasets.
+   - I have selected a dataset that interests me from the [UCI](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) Machine Learning Repository.
 
 2. **Trained a Model**
    - I trained a model using the selected dataset and meticulously track my experiments. This process includes:
