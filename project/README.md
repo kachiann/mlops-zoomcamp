@@ -1,40 +1,11 @@
-# End-to-End ML Project
+# Bike Sharing Demand Prediction
 
-Welcome to my end-to-end machine learning (ML) project. This project is a comprehensive guide to building a full-fledged ML pipeline from dataset selection to deployment and monitoring.
+## Project Description
+The goal of this project is to build an end-to-end machine learning pipeline to predict bike-sharing demand using historical data. This prediction will help optimize bike distribution and availability in a bike-sharing system.
 
-## Project Steps
+## Problem Statement
+Bike-sharing systems are becoming increasingly popular in urban areas as a convenient and eco-friendly mode of transportation. However, managing the distribution of bikes to meet demand is challenging. The objective of this project is to predict the number of bikes required at different stations at different times of the day to ensure optimal availability and customer satisfaction.
+By addressing these challenges through data analysis, the project aims to enhance the overall user experience, increase operational efficiency, and promote sustainable urban transportation.
 
-1. **Dataset Selection**
-   - I have selected a dataset that interests me from the [UCI](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) Machine Learning Repository.
-
-2. **Trained a Model**
-   - I trained a model using the selected dataset and meticulously track my experiments. This process includes:
-     - Data preprocessing and cleaning
-     - Feature engineering and selection
-     - Model training and validation
-     - Hyperparameter tuning
-     - Experiment logging and tracking
-
-3. **Created a Model Training Pipeline**
-   - Developing a robust and scalable model training pipeline is key. This involves:
-     - Data ingestion and preprocessing
-     - Model training and validation
-     - Model versioning and packaging
-
-4. **Deployed the Model**
-   - Deployed the trained model.
-
-5. **Monitored Model Performance**
-   - Setting up monitoring to ensure the model performs optimally post-deployment is crucial. This includes:
-     - Tracking key performance metrics
-     - Detecting data and concept drift
-     - Implementing alerting and logging mechanisms
-
-6. **Following Best Practices**
-   - Adhering to industry best practices throughout the project ensures quality and reliability. This includes:
-     - Writing clean and maintainable code
-     - Documenting the process and code
-     - Using version control effectively
-     - Implementing CI/CD pipelines
-     - Ensuring security and compliance
-
+## Dataset
+The dataset used for this project is the "Bike Sharing Demand" dataset, which includes historical data on bike rentals, weather conditions, and timestamps. This dataset is available on [UCI](https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset) Machine Learning Repository.
