@@ -1,6 +1,7 @@
 # Bike Sharing Demand Prediction
 
 ## Project Description
+This is the implementation of my project for the course mlops-zoomcamp from [DataTalksClub](https://github.com/DataTalksClub/mlops-zoomcamp).
 The goal of this project is to build an end-to-end machine learning pipeline to predict bike-sharing demand using historical data. This prediction will help optimize bike distribution and availability in a bike-sharing system.
 
 ## Problem Statement
